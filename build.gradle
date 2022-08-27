@@ -1,0 +1,39 @@
+
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+/*
+ * *
+ *  * Created by Muhammad Husayn Irfan on 11/11/21, 12:46 PM
+ *  * Copyright (c) 2021 . All rights reserved.
+ *  * Last modified 10/22/21, 5:12 PM
+ *
+ */
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.2'
+        classpath 'com.google.gms:google-services:4.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

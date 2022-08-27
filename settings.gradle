@@ -1,0 +1,10 @@
+/*
+ * *
+ *  * Created by Muhammad Husayn Irfan on 11/11/21, 12:46 PM
+ *  * Copyright (c) 2021 . All rights reserved.
+ *  * Last modified 10/22/21, 5:12 PM
+ *
+ */
+
+rootProject.name = "FypProject2021"
+include ':app'
