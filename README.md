@@ -5,8 +5,8 @@ It used the Firebase Authentication for user, Firebase Realtime Database for all
 
 #For Administrator
 
-1. Had superuser levels, can edit the database and supervised the other user.
-2. Can add task.
+- Had superuser levels, can edit the database and supervised the other user.
+- Can add task.
 
 #For Engineer
 
